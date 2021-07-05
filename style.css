@@ -6,24 +6,32 @@ h1{
     font-size: 70px;
     line-height: 40px;
 }
+h2{
+    font-size: 40px;
+}
 .emon{
     font-weight: bolder;
     color: tomato
     ;
 }
+section{
+    display: flex;
+    margin-bottom: 150px;
+}
 .first-section{
    
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    display: flex;
+    
   
 }
 .half-width{
     width: 100%;
-    padding-left: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 .half-width img {
-    width: 80%;
+    width: 90%;
     padding-top: 5%;
 }
 .link-button{
@@ -32,4 +40,10 @@ background-image: linear-gradient( red, rgb(255, 173, 51));
 padding: 10px 40px;
 color: white;
 border-radius: 5px;
+font-weight: 700;
+}
+.second-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
